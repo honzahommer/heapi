@@ -1,0 +1,38 @@
+{
+  "author": {
+    "name": "Honza Hommer",
+    "email": "honza@hommer.cz"
+  },
+  "bugs": {
+    "url": "https://github.com/honzahommer/heapi/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "express": "^4.15.3",
+    "got-retry": "^1.1.0",
+    "request-ip": "^2.0.1",
+    "xml2js": "^0.4.17"
+  },
+  "deprecated": false,
+  "description": "Hurricane Electric Free IPv6 Tunnel Broker API",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "mocha": "^3.2.0"
+  },
+  "engines": {
+    "node": ">= 4.6.2"
+  },
+  "homepage": "https://github.com/honzahommer/heapi#README",
+  "main": "server.js",
+  "name": "heapi",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/honzahommer/heapi.git"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha --timeout 10000"
+  },
+  "version": "0.0.0"
+}

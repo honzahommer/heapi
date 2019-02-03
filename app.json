@@ -1,0 +1,6 @@
+{
+  "name": "heapi",
+  "description": "Hurricane Electric Free IPv6 Tunnel Broker API.",
+  "repository": "https://github.com/honzahommer/heapi",
+  "keywords": ["node", "ipv6", "he", "tunnelbroker", "api"]
+}
